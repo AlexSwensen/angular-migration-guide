@@ -1,5 +1,6 @@
 ---
 layout: single
+toc: true
 title:  "Welcome to Jekyll!"
 date:   2018-09-13 14:42:19 -0500
 categories: jekyll update

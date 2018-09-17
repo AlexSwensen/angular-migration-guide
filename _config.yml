@@ -12,7 +12,7 @@
 
 theme                  : "minimal-mistakes-jekyll"
 # remote_theme           : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+minimal_mistakes_skin    : "mint" # "default", "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
 locale                   : "en-US"
@@ -22,9 +22,9 @@ title_separator          : "-"
 # description              : "An amazing website."
 url                      : "https://angularmigrationguide.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "alexswensen/angularjs-migration-guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "alexswensen/angular-migration-guide" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
-# breadcrumbs            : false # true, false (default)
+breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 comments:
   provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
@@ -100,11 +100,11 @@ analytics:
 
 # Site Author
 author:
-  name             : "Your Name"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
-  location         : "Somewhere"
-  email            :
+  # name             : "Your Name"
+  # avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  # bio              : "I am an amazing person."
+  # location         : "Somewhere"
+  # email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
@@ -120,7 +120,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/AlexSwensen/angular-migration-guide"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -136,7 +136,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/AlexSwensen/angular-migration-guide"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
